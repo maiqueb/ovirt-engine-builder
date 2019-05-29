@@ -2,7 +2,7 @@
 Vagrant based ovirt-engine VM builder
 
 ## Instructions
-TODO
+Simply clone this repo and run vagrant up.
 
 ## Dependencies
 * [vagrant](https://www.vagrantup.com/)

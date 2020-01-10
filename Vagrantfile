@@ -9,6 +9,7 @@ Vagrant.configure("2") do |config|
   config.vm.provider :libvirt do |vm|
     vm.memory = "8192"
     vm.cpus = 2
+    vm.qemu_use_session = false
   end
 
   config.vm.provision "shell", inline: <<-SHELL
